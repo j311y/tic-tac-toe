@@ -1,3 +1,26 @@
+## Set-Up
+
+Clone this repository, then:
+
+```bash
+bundle install
+
+rspec #to run tests
+
+pry / irb #to run the program
+
+```
+## Instructions
+
+In your chosen REPL:
+```bash
+require './lib/game'
+game = Game.new # to instantiate a new game
+game.place(row, column) # enter the desired place to place your piece
+# example
+game.place(0,0) # would put your piece in the top left space
+```
+
 ## User Stories
 
 As a player,
